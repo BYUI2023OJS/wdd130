@@ -24,3 +24,10 @@ img {
 p{
     padding: 10px;
 }
+
+img {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    box-shadow: 0 0 30px gray;
+}
