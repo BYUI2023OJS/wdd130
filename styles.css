@@ -1,33 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*Class Selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / .1);
-    padding: 1rem;
-    background-colour: #add;
-    color: #000;
-}
-
-main img {
-    /* you most likely will have other declaratins here */
-    float: right;
-}
-
-aside {
-    width: 20em;
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -67,12 +37,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47;
-    left: 150;
 }
 
 aside img {
