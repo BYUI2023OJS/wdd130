@@ -1,88 +1,31 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #28A745;
+    --accent-color: #FFC107;
+    --accent-color: #FFFFFF;
+}
+
 body { 
-    background-image: url('whitewater_images/splash.jpg.jpg'); /* Replace with your image URL */ 
-    background-size: cover; /* This will scale the image to cover the entire background */ 
-    background-position: center; /* This will center the image */ 
-    background-repeat: no-repeat; /* This will prevent the image from repeating */ 
-    color: #FFFFFF; /* White text for contrast */
-    font-family: Arial, sans-serif;
-    margin: 0; 
-    padding: 0; 
+    background-color: var(--primary);
+    color: var(--accent2-color);
 } 
 
 header { 
-    background-color: rgba(0, 0, 0, 0, 5); 
-    color: white; 
-    padding: 20px 0; 
-    text-align: center;
-    display: flex;
-     
+   background-color: var(--secondary-color);
 } 
+
+nav ul li a {
+    background-color: var(--accent2-color);
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
 
 .logo {  
     height: 50px; /*This decreases the size of the logo*/
     position: center; 
-} 
-
-nav ul li {
-    margin:0 15px;
+    color: #414288;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    text-align: center;
-    color: white;
-    padding: 100px 20px;
-}
-
-.hero { 
-    position: relative; 
-    text-align: center; 
-    color: white; 
-} 
-
-.background { 
-    width: 100%; 
-    height: auto; 
-    opacity: 0.8; 
-} 
-
-.hero h2 { 
-    position: absolute; 
-    top: 50%; left: 50%; 
-    transform: translate(-50%, -50%); 
-    font-size: 2em; 
-} 
-
-.gallery { 
-    padding: 20px; 
-    text-align: center; 
-} 
-
-.images { 
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-} 
-
-.images img { 
-    margin: 10px; 
-    width: 200px; 
-    height: auto; 
-    border-radius: 10px; 
-} 
-
-footer { 
-    background-color: #333; 
-    color: white; 
-    text-align: center; 
-    padding: 10px 0;
-}    
+h1, h2, h3, h4, h5, h6 { font-family: 'Arial', sans-serif; }
