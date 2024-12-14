@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #28A745;
+    --accent-color: #FFC107;
+    --accent-color: #FFFFFF;
+}
+
+body { 
+    background-color: var(--primary);
+    color: var(--accent2-color);
+} 
+
+header { 
+   background-color: var(--secondary-color);
+} 
+
+nav ul li a {
+    background-color: var(--accent2-color);
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.logo {  
+    height: 50px; /*This decreases the size of the logo*/
+    position: center; 
+    color: #414288;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Arial', sans-serif; }
