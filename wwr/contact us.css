@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #28A745;
+    --accent-color: #FFC107;
+    --accent-color: #FFFFFF;
+}
+
+body { 
+    background-color: var(--primary);
+    color: var(--accent2-color);
+} 
+
+header { 
+   background-color: var(--secondary-color);
+} 
+
+nav ul li a {
+    background-color: var(--accent2-color);
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.logo {  
+    height: 50px; /*This decreases the size of the logo*/
+    position: center; 
+    color: #414288;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Arial', sans-serif; }
+
+.employee-profile { 
+    display: inline-block; 
+    text-align: center; 
+    margin: 20px; 
+} 
+
+.employee-profile img { 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+} 
+
+form { 
+    margin-top: 20px; 
+} 
+
+label { 
+    display: block; 
+    margin-top: 10px; 
+} 
+
+input[type="text"], input[type="email"], textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+} 
+
+input[type="radio"] { 
+    margin-right: 10px; 
+} 
+
+input[type="checkbox"] { 
+    margin-right: 5px; 
+} 
+
+button { 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+} 
+
+button:hover { 
+    background-color: #45a049; 
+} 
